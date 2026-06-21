@@ -60,3 +60,20 @@ elif 0 < fuel - distance <10 :
     print("enough fuel,low resaerv ") 
 else:
     print("not enough fuel ")
+#9     
+username = input("enter your user ")
+if username:
+    print(f"hello {username}")
+else:
+    print("guest user") 
+# 10
+hour = 21 
+if hour < 0 or hour >23:
+    print("invalid hour")
+elif hour < 12:
+    print("morning")
+elif hour < 18 :
+    print("afternoon") 
+else:
+    print("evening") 
+

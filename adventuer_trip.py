@@ -20,3 +20,7 @@ match trip:
                 print("invalid cave path")  
         else:
             print("its to dark to enter")             
+    case "river":
+        print("you find a boat")
+    case _:
+        print("unknown place")
